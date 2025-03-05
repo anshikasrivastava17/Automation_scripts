@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#delete archives older than 2 days
 if [ -z "$1" ]; then
     echo "ERROR: No argument supplied" >&2; exit 1;
 fi
